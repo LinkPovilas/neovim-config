@@ -134,6 +134,12 @@ M.dap = {
     },
   },
 }
+
+M.lazygit = {
+  n = {
+    ["<leader>gg"] = { "<cmd> LazyGit <CR>", "Toggle lazygit panel" },
+  },
+}
 -- more keybinds!
 
 return M
